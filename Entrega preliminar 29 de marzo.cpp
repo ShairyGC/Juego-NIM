@@ -55,7 +55,7 @@ int main (){
             cout<<"Que fila desea modificar (del 1 al 3): ";
             cin>>quitar_fila;
 
-            //Validaci�n de fila
+            //Validacion de fila
             while (quitar_fila < 1 || quitar_fila > 3 || (quitar_fila == 1 && fila_1 == 0) || (quitar_fila == 2 && fila_2 == 0) || (quitar_fila == 3 && fila_3 == 0)) {
                 cout << "Por favor, ingrese un n�mero v�lido de fila: ";
                 cin >> quitar_fila;
